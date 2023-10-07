@@ -59,3 +59,5 @@ def read_gt_image(base_dir, gta_pass, img_id, data_type, min_distance, max_dista
         img = cv2.resize(img, dsize=(scaled_img_width, scaled_img_height), interpolation=cv2.INTER_AREA)
 
     return np.expand_dims(np.expand_dims(img, axis=2), axis=0), None
+
+

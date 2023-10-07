@@ -48,7 +48,6 @@ def run(results_dir, model_dir, base_dir, train_file_names, eval_file_names, num
             gt_patch, lidar_mask = dsutil.read_gt_image(base_dir, gta_pass, img_id, data_type, min_distance, max_distance)
             cnt += 1
             input_patch = in_img
-            gt_patch = gt_patch
 
             loss = train_step(input_patch, gt_patch, model, optimizer)
             print("%d %d Loss=%.3f" % (epoch, cnt, loss))
