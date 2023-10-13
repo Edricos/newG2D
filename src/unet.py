@@ -69,7 +69,8 @@ def build_unet(input_img):
     # 输出层
     out = tf.keras.layers.Conv2D(1, (1, 1), activation=None, padding='same')(conv9)
 
-    return out, up8, up7
+    # return out, up8, up7
+    return out
 
 
 
