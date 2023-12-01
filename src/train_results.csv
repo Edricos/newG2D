@@ -1,4 +1,4 @@
-Time,Val MAE,Val RMSE,Val ARD,Val De1,Val De2,Val De3,Epoch Num,LRate,Beta1,Batch Size,LossF,H-Reso,W-Reso,DP_weight
+Time,Val MAE,Val RMSE,Val ARD,Val De1,Val De2,Val De3,Epoch Num,LRate,Beta1,Bch_sz,LossF,H-Reso,W-Reso,DP_weight
 15:23 2023-11-02,4.04,8.75,0.16,85.89,92.59,95.34,11,0.0001,0.5,1,,,,
 16:45 02-11-2023,4.77,9.38,0.17,82.87,91.58,94.89,3,0.0001,0.5,1,,,,
 15_01_d_06_11_2023,4.66,9.34,0.16,83.11,91.72,94.87,3,0.0001,0.6,1,,,,
