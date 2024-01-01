@@ -2,7 +2,13 @@
 
 ###### Created by Edricc2 on 2024.1.1
 
-[1. Juptyer Notebook](#1-JuptyerNotebook)
+分为以下几节：
+
+[1. Juptyer Notebook](#JuptyerNotebook)
+
+[2. 进度条`tqdm`](#进度条`tqdm`)
+
+[3. 直接对WSL2（Windows的Linux子系统）进行远程开发](#直接对WSL2（Windows的Linux子系统）进行远程开发)
 
 ### I. Juptyer Notebook
 pycharm专业版可以轻松的使用jupyter，在配置好python环境以后，只需要新建Juptyer Notebook文件即可。之后，pycharm会提示你安装jupyter模块，安装即可。
